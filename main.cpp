@@ -470,6 +470,8 @@ int main()
 	// Executa bateria de testes conforme Seção 4
 	int qtds[] = {2, 4, 8, 16, 32, 64};
 
+	// Ec = (V * Cv) + (T * Ct)
+	// 2.164 (V) | 32 (T) | Ec = (2.164 * 10) + (32 * 100) = 21.640 + 3.200 = 24.840
 	for (int n : qtds)
 	{
 		std::cout << "--- CENA COM " << n << " OBJETOS ---\n";
